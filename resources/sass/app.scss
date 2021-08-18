@@ -1,0 +1,29 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+$default-color: #555;
+$primary-color: #1284e7;
+
+
+.mx-datepicker {
+  width: 100% !important;
+}
+.snotifyToast__body{
+  font-size: 15px!important;
+}
+.snotifyToast__title{
+  font-size: 20px!important;
+}
+.active{
+  @apply text-white bg-indigo-600;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
